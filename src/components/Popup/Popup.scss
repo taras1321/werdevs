@@ -1,0 +1,63 @@
+.popup-back {
+  background: #131819ad;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  position: relative;
+  background: #fff;
+  display: flex;
+  padding: 25px;
+  padding-top: 30px;
+
+  input {
+    width: 100%;
+  }
+  .month-wrapper,
+  .day-wrapper {
+    width: 220px;
+  }
+
+  .day-wrapper {
+    margin-left: 20px;
+  }
+
+  label {
+    letter-spacing: -0.4px;
+    color: #a2a2a2;
+    font-size: 20px;
+  }
+
+  input {
+    font-family: Rubik;
+    box-shadow: 0px 0px 25px #0000000d;
+    border: 2px solid #fdd000;
+    outline: none;
+    padding: 14px 20px;
+    margin-top: 8px;
+    font-size: 22px;
+    letter-spacing: 0.66px;
+    color: #3d3d3d;
+    font-weight: 500;
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: #fdd000;
+    font-size: 26px;
+    color: #3d3d3d;
+    cursor: pointer;
+  }
+}

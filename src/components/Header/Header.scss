@@ -1,0 +1,33 @@
+.header {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 110px;
+
+  img {
+    width: 250px;
+  }
+
+  a {
+    margin-left: 70px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    font-weight: 500;
+    position: relative;
+  }
+  a.about-link.active::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fdd000;
+    border-radius: 50%;
+  }
+}
