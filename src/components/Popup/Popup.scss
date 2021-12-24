@@ -61,3 +61,42 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 610px) {
+  .popup {
+    padding: 15px;
+    padding-top: 20px;
+
+    .month-wrapper,
+    .day-wrapper {
+      width: 150px;
+    }
+
+    input {
+      padding: 8px 15px;
+      margin-top: 5px;
+      font-size: 15px;
+    }
+
+    label {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .popup {
+    .month-wrapper,
+    .day-wrapper {
+      width: 120px;
+    }
+
+    input {
+      font-size: 13px;
+    }
+
+    label {
+      font-size: 12px;
+    }
+  }
+}
